@@ -1,0 +1,6 @@
+1. Install extension ci-snippets2
+
+2. replace file to
+%USERPROFILE%\.vscode\extensions\anish-m.ci-snippets2-1.0.1\snippets
+
+3. Done

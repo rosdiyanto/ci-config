@@ -1,0 +1,6 @@
+1. Install extension Codeigniter 3 Files Creator
+
+2. replace file to
+%USERPROFILE%\.vscode\extensions\syedmuradalishah.codeigniter-3-files-creator-0.3.0\commands
+
+3. Done
