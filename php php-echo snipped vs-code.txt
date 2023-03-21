@@ -1,0 +1,19 @@
+file->prefences->configute user snippets->html.json
+{
+	"php": {
+		"prefix": "php",
+		"body": [
+			"<?php $1 ?>",
+			"$2"
+		],
+		"description": "php tag"
+	},
+	"php_echo": {
+		"prefix": "phpp",
+		"body": [
+			"<?= $1 ?>",
+			"$2"
+		],
+		"description": "php tag echo"
+	}
+}
