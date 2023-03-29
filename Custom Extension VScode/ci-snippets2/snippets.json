@@ -266,7 +266,7 @@
   },
   "ci_form_validation": {
     "prefix": "ci_form_validation",
-    "body": "$$this->form_validation->set_rules('${1:fieldname}', '${2:fieldlabel}', '${3:trim}|${4:required}|${5:min_length[${6:5}]}|${7:max_length[${8:12}]}');",
+    "body": "$$this->form_validation->set_rules('${1:name_form}', '${2:name_alias_form}', '${3:trim}|${4:required}|${5:min_length[${6:5}]}|${7:max_length[${8:12}]}');",
     "description": "CI - Form Validation Rule"
   },
   "ci_form_validation_run": {
