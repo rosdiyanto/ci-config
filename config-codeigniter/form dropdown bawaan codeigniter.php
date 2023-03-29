@@ -1,3 +1,4 @@
+<?php
 public function cek()
 {
     $kategori = $this->M_kategori->get_kategori()->result();
