@@ -43,3 +43,6 @@ public function __construct()
 		redirect('login','refresh');
 	}
 }
+
+// view
+<?php if(isset($pesan)){echo $pesan;} ?>
