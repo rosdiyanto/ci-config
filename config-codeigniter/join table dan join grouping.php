@@ -1,3 +1,4 @@
+<?php
 public function join($id)
 {
     $this->db->select('tbl_slider.id, img');
