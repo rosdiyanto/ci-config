@@ -15,7 +15,7 @@ public function gabung()
 
 public function gabung_get_by_id($id)
 {
-    $this->db->select('a.id, a.*, b.*');
+    $this->db->select('a.id as kode, a.*, b.*');
     $this->db->from('tbl_pemberhentian as a');
     $this->db->join('tbl_pegawai as b', 'a.id_pegawai = b.id', 'left');
     $this->db->where('a.id', $id);
