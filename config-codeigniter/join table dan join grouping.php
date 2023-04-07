@@ -13,6 +13,16 @@ public function gabung()
     return $this->db->get();
 }
 
+public function gabung_get_by_id($id)
+{
+    $this->db->select('a.id, a.*, b.*');
+    $this->db->from('tbl_pemberhentian as a');
+    $this->db->join('tbl_pegawai as b', 'a.id_pegawai = b.id', 'left');
+    $this->db->where('a.id', $id);
+    $this->db->order_by('a.id', 'desc');
+    return $this->db->get();
+}
+
 public function join($id)
 {
     $this->db->select('tbl_slider.id, img');
