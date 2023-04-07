@@ -3,7 +3,7 @@
 public function gabung()
 {
     // cara kerja
-    // yaitu menampilkan seluruh data dari tabel left (tbl_pemberhentian atau a) besetda jumlah rows pada table a
+    // yaitu menampilkan seluruh data dari tabel left (tbl_pemberhentian atau a) beserta jumlah rows pada table a
     // dan menggabungkan ke tabel right (tbl_pegawai atau b)
     // dimana primary key di tbl a dan foreignkey di table b
     $this->db->select('a.id, b.nip, b.nama, b.gender, a.jenis_pemberhentian, b.jabatan, a.tgl_usulan, a.status');
