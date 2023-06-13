@@ -44,6 +44,11 @@
     "body": "\npublic function __construct()\n{\n\tparent::__construct();\n\t${0://Do your magic here}\n}\n",
     "description": "CI - Constructors are useful if you need to set some default values."
   },
+  "ffun": {
+    "prefix": "ffun",
+    "body": "public function ${1:name_function}()\n{\n\t${2://Do your magic here}\n}\n",
+    "description": "CI - Public Function."
+  },
   "controller": {
     "prefix": "controller",
     "body": "\ndefined('BASEPATH') OR exit('No direct script access allowed');\n\nclass ${1:Controllername} extends ${2:CI}_Controller {\n\n\tpublic function index()\n\t{\n\t\t$0\n\t}\n\n}\n\n/* End of file $1.php */\n",
