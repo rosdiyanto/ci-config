@@ -44,8 +44,8 @@
     "body": "\npublic function __construct()\n{\n\tparent::__construct();\n\t${0://Do your magic here}\n}\n",
     "description": "CI - Constructors are useful if you need to set some default values."
   },
-  "ffun": {
-    "prefix": "ffun",
+  "funn": {
+    "prefix": "funn",
     "body": "public function ${1:name_function}()\n{\n\t${2://Do your magic here}\n}\n",
     "description": "CI - Public Function."
   },
