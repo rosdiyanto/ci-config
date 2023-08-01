@@ -523,5 +523,10 @@
     "prefix": "ci_foreach",
     "body": "<?php foreach ($${1:data_sungai} as $${2:row}): ?>\n\t<tr>\n\t\t<td><?= $${3:row->id_sungai}; ?></td>\n\t<tr>\n<?php endforeach ?>",
     "description": "CI - Foreach Table"
+  },
+  "ci_if": {
+    "prefix": "ci_if",
+    "body": "<?php if (($${1:nilai} >= 80): ?>\n\t<p>Anda lulus ujian dengan predikat A.</p>\n<?php elseif (($${2:nilai} >= 70): ?>\n\t<p>Anda lulus ujian dengan predikat B.</p>\n<?php elseif (($${3:nilai} >= 60): ?>\n\t<p>Anda lulus ujian dengan predikat C.</p>\n<?php else: ?>\n\t<p>Anda tidak lulus ujian.</p>\n<?php endif; ?>",
+    "description": "CI - if"
   }
 }
