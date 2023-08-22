@@ -46,6 +46,11 @@
   },
   "funn": {
     "prefix": "funn",
+    "body": "function ${1:name_function}()\n{\n\t${2://Do your magic here}\n}\n",
+    "description": "CI - Function."
+  },
+  "funnn": {
+    "prefix": "funnn",
     "body": "public function ${1:name_function}()\n{\n\t${2://Do your magic here}\n}\n",
     "description": "CI - Public Function."
   },
@@ -271,13 +276,8 @@
   },
   "ci_form_validation": {
     "prefix": "ci_form_validation",
-    "body": "$$this->form_validation->set_rules('${1:name_form}', '${2:name_alias_form}', '${3:trim}|${4:required}|${5:min_length[${6:5}]}|${7:max_length[${8:12}]}');",
+    "body": "$$this->form_validation->set_rules('${1:fieldname}', '${2:fieldlabel}', '${3:trim}|${4:required}|${5:min_length[${6:5}]}|${7:max_length[${8:12}]}');",
     "description": "CI - Form Validation Rule"
-  },
-  "ci_form_validation_delimiters": {
-    "prefix": "ci_form_validation_delimiters",
-    "body": "$$this->form_validation->set_error_delimiters('<small class=\"form-text text-center text-white bg-secondary border rounded shadow-sm\">', '</small>');",
-    "description": "CI - Form Validation Delimiters"
   },
   "ci_form_validation_run": {
     "prefix": "ci_form_validation_run",
