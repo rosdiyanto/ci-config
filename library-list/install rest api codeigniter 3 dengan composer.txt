@@ -8,5 +8,7 @@ link library : https://github.com/chriskacerguis/codeigniter-restserver
 - ubah dari false ke $config['composer_autoload'] = FCPATH . 'vendor/autoload.php';
 3. copy file configurasi library ke config codeigniter 
 - cp vendor/chriskacerguis/codeigniter-restserver/src/rest.php application/config/ 
-4. untuk akses api lakukan seperti ini
+4. edit rest.php
+- ubah dari $config['auth_source'] = 'ldap'; ke $config['auth_source'] = '';
+5. untuk akses api lakukan seperti ini
 - http://localhost/restapi/index.php/api/users
